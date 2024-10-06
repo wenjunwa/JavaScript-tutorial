@@ -1,0 +1,26 @@
+1, String = text
+2, Use strings and numbers together
+3, three ways to create string:
+  1, single quote
+    'javaScrip'
+  2, double quote
+    "javaScript"
+     escape symbol
+    'I\'m learing javaScript'
+    \'  \"  \n
+  3, back tick : template strings
+    `hello`
+
+    features of template strings:
+      interpolation = insert value directly into a string
+        `Items (${1 +1})`
+        `Items (${1 +1}): $${(2095 + 799)/100}`
+
+      multiline console:
+      `some
+      text`
+
+
+
+
+  
