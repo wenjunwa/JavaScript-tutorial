@@ -1,0 +1,19 @@
+1, HTML = creates the content
+2, CSS = changes the appearance
+3, JavaScript = makes it interactive
+
+HTML
+Hyper text markup language
+-giving instructions to a computer
+
+Load JavaScript inside and HTML file
+  <script></script>, onclick=""
+
+comments:
+HTML: <!---->
+css: /**/
+javScript: //comments single line
+          /*
+          comments
+          multiline
+          */
