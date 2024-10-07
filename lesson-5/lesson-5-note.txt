@@ -9,3 +9,4 @@ variables = a way to save values
 let   -->   can be reasigned in the future
 const -->   can not be reassigned
 var   -->   was used in old version of javaScript
+
