@@ -1,0 +1,45 @@
+Comparison operation:
+>   greater than
+<   less than
+>=  greater than or equal to
+<=  less than or equal to
+=== equal to
+!== not equal to 
+
+Oder of operations:
+1, ()
+2, * /
+3, + -
+4, comparison operations
+5, logical operations
+
+if-Statements
+-let us write multiple groups of code
+-and then decide which group to run
+
+Logical Operators
+-let us combine boolean values
+
+and operator checks if both sides are true. 
+true && true    ---> true;
+true && false   ---> false;
+
+or operator checks if at least one side is true.
+true || true    ---> true;
+true || false   ---> true;
+false || false  ---> false;
+
+not operator negate the boolean value:
+!true       --->  false
+!false      --->  true
+
+Truthy and falsy values:
+  -falsy values:
+    false   0   ''    Nan   undefined   null
+  -truthy values:
+    any values not on the falsy value list
+
+Shortcuts for If-Statements
+-Ternary Operator ?:
+-Guard Operator &&
+-Default Operator ||

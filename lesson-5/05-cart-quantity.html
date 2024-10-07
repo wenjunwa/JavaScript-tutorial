@@ -10,44 +10,52 @@
     </button>
 
     <button onclick="
-      cartQuantity += 1;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity + 1;
+      cartQuantity = newCartQuantity <= 10 ? (cartQuantity += 1) : (cartQuantity += 0);
+      console.log(newCartQuantity <= 10 ? `Cart quantity: ${cartQuantity}`:'Cart is full.');
     ">Add to Cart
     </button>
 
     <button onclick="
-      cartQuantity += 2;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity + 2;
+      cartQuantity = newCartQuantity <= 10 ? (cartQuantity += 2) : (cartQuantity += 0);
+      console.log(newCartQuantity <= 10 ? `Cart quantity: ${cartQuantity}`:'Cart is full.');
     ">+2</button>
 
     <button onclick="
-      cartQuantity += 3;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity + 3;
+      cartQuantity = newCartQuantity <= 10 ? (cartQuantity += 3) : (cartQuantity += 0);
+      console.log(newCartQuantity <= 10 ? `Cart quantity: ${cartQuantity}`:'Cart is full.');
     ">+3</button>
 
     <button onclick="
-      cartQuantity += 4;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity + 4;
+      cartQuantity = newCartQuantity <= 10 ? (cartQuantity += 4) : (cartQuantity += 0);
+      console.log(newCartQuantity <= 10 ? `Cart quantity: ${cartQuantity}`:'Cart is full.');
     ">+4</button>
 
     <button onclick="
-      cartQuantity += 5;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity + 5;
+      cartQuantity = newCartQuantity <= 10 ? (cartQuantity += 5) : (cartQuantity += 0);
+      console.log(newCartQuantity <= 10 ? `Cart quantity: ${cartQuantity}`:'Cart is full.');
     ">+5</button>
 
     <button onclick="
-      cartQuantity -= 1;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity -1;
+      cartQuantity = newCartQuantity >= 0 ? (cartQuantity -= 1) : (cartQuantity -= 0);
+      console.log(newCartQuantity >= 0 ? `Cart quantity: ${cartQuantity}`:'Not enough item in the cart.');
     ">Remove from cart</button>
 
     <button onclick="
-      cartQuantity -= 2;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity -2;
+      cartQuantity = newCartQuantity >= 0 ? (cartQuantity -= 2) : (cartQuantity -= 0);
+      console.log(newCartQuantity >= 0 ? `Cart quantity: ${cartQuantity}`:'Not enough item in the cart.');
     ">-2</button>
 
     <button onclick="
-      cartQuantity -= 3;
-      console.log(`Cart quantity: ${cartQuantity}`);
+      newCartQuantity = cartQuantity -3;
+      cartQuantity = newCartQuantity >= 0 ? (cartQuantity -= 3) : (cartQuantity -= 0);
+      console.log(newCartQuantity >= 0 ? `Cart quantity: ${cartQuantity}`:'Not enough item in the cart.');
     ">-3</button>
 
     <button onclick="
@@ -58,6 +66,7 @@
 
     <script>
       let cartQuantity = 0;
+      let newCartQuantity = 0;
 
     </script>
   </boday>
