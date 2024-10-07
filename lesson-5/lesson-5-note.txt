@@ -1,0 +1,11 @@
+Naming conventions:
+camelCase     --->    cartQuantity
+PascalCase    --->    CartQuantity
+kebab-case    --->    cart-quantity
+snake_case    --->    cart_quantity
+
+variables = a way to save values
+3 ways to create a variable:
+let   -->   can be reasigned in the future
+const -->   can not be reassigned
+var   -->   was used in old version of javaScript
